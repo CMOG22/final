@@ -1,0 +1,66 @@
+/*menu*/
+.navbar-nav{
+    padding-top: 1rem !important;
+    padding-bottom: 10rem !important;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*footer*/
+.footer_section{
+    background-color: $fondo_body;
+    margin-top: -1rem;
+    padding-top: 3rem;
+}
+.fr3_footer{
+    border-top: 1px solid grey;
+}
+.menu_footer{
+    font-size: 1.5rem;
+    h4{
+        font-size: 2rem !important;
+    }
+    a{
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+        color: $blanco;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        :hover{
+            border: 2px solid $verde;
+            border-radius: 10px;
+            color: $blanco !important;
+        }
+    }
+    li a:hover:not(.active){
+        color: black;
+        background-color: $verde;
+    }
+}
+
+.fr3_footer h4{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.fr2_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.fr5_redes_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.derechos{
+    margin: 2rem;
+    p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+/*body*/
+.body_landingPage{
+    background-color: $fondo_body;
+    padding: 5rem 1rem 0rem;
+}
