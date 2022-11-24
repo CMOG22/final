@@ -1,0 +1,33 @@
+@media (min-width: 481px){
+    .img_full{
+        text-align: center;
+        img{
+            width: 50%;
+        }
+    }
+    .menu_footer{
+        margin-bottom: 5rem !important;
+        ul{
+            list-style-type: none;
+        }
+        li{
+            float: left;
+        }
+        a{
+            padding: 0 1rem;
+        }
+    }
+    /*servicios*/
+    .servicios_fr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.3rem;
+    }
+    /*proyectos*/
+    .wordpress, .front{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*Sobre mi*/
+    /*contacto*/
+    
+} 

@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Porfolio</title>
+    <title>CMOG - Servicios</title>
     <!--
-    <link rel="preload" href="css/styles.css" as="style">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="../css/styles.css" as="style">
+    <link rel="stylesheet" href="../css/styles.css">
     -->
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <!--Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <!--sass se tiene que likear el css que se carga despues de whatch sass-->
-    <link rel="preload" href="./sass/main.css" as="style">
-    <link rel="stylesheet" href="./sass/main.css">
-    <meta name="description" content="Fullstack Developer">
+    <link rel="preload" href="../sass/main.css" as="style">
+    <link rel="stylesheet" href="../sass/main.css">
+    <meta name="description" content="Fullstack Developer, un poco sobre mi y mi recorrido">
     <meta name="keywords" content="html, css, sass, scss, javascript, mantenimiento, desarrollo, pymempresario, abogado-rapido, bakereast, falafelito, chabadzoom, promoestilo">
     <meta name="author" content="César Olvera">
-
 </head>
 <body>
     <header>
@@ -27,7 +25,7 @@
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/Mesa de trabajo 1.png" alt="">
+                    <img src="../img/Mesa de trabajo 1.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,27 +33,27 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link " aria-current="page" href="../index.html">
                                 Home
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/servicios.html">
+                            <a class="nav-link " href="./servicios.html">
                                 Servicios
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/proyectos.html">
+                            <a class="nav-link " href="./proyectos.html">
                                 Proyectos
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/sobre_mi.html">
+                            <a class="nav-link active" href="#">
                                 Sobre mi
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">
+                            <a class="nav-link" href="./contacto.html">
                                 Contacto
                             </a>
                         </li>
@@ -70,7 +68,17 @@
             </div>
         </nav>
     </header>
-    <main class="home_page">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <main class="sobre_mi home_section">
         <div id="arriba"></div>
         <div class="arrow-top">
             <a href="#arriba">
@@ -83,86 +91,116 @@
                 </svg>
             </a>
         </div>
-        <div class="welcome">
-            <h2>Bienvenido a mi Portfolio</h2>
+        <div class="descargar">
+            <a href="../files/CV.pdf" target="_blank"><input type="button" value="Descargar CV"></a>
         </div>
-        <div class="body_fr2_1">
+        <h1>Sobre Mi</h1>
+        <div class="fr2_sobre">
+            <section class="foto_center">
+                <img src="../img/miFoto.jpg" alt="Foto" class="foto">
+            </section>
             <section>
-                <p class="full_stack">
-                    Full Stack Developer
-                </p>
-                <p class="frase">
-                    Hablar es fácil.
-                </p>
-                <p class="frase">
-                    Muéstrame el código.
-                </p>
-                <p class="frase_2">
-                    Diseño y codifico cosas hermosas y sencillas, y me encanta lo que hago
-                </p>
-                <p class="chat">
-                    <a href="tel+5287412153" class="" target="_blank"> --> ¡Charlemos! <-- </a>
-                </p>
-                <p class="experiencia">
-                    2 años de experiencia
-                </p>
-            </section>
-            <section class="img_full">
-                <div class="watermark_full">
-                    <img src="./img/full stack.png" alt="">
+                <h2>César Mauricio Olvera Gutiérrez</h2>
+                <h3>Ingeniero en Tecnología de la Información y Comunicación</h3>
+                <div class="fr2_cv">
+                    <section>
+                        <p><a href="tel:+5287412153" target="_blank" class="cv">55-8741-2153</a></p>
+                    </section>
+                    <section>
+                        <p><a href="mailto:olvera_cesar.m@hotmail.com" target="_blank" class="cv">olvera_cesar.m@hotmail.com</a></p>
+                    </section>
                 </div>
             </section>
         </div>
-        
-        <div class="body_fr2">
+        <div class="fr2_cv">
             <section>
-                <div class="diseno">
-                    <h2>
-                        Diseño
-                    </h2>
-                    <p>
-                        Crea productos digitales con ideas únicas.
-                    </p>
-                    <a href="./pages/proyectos.html">Ver proyectos</a>
-                </div>
-                <div class="diseno">
-                    <h2>
-                        Full Stack
-                    </h2>
-                    <p>
-                        Soy desarrollador Full Stack con codificación fluida.
-                    </p>
-                    <a href="./pages/proyectos.html">Ver proyectos</a>
-                </div>
-                <div class="diseno">
-                    <h2>
-                        SEO
-                    </h2>
-                    <p>
-                        Impulsa tu negocio con optimización SEO.
-                    </p>
-                    <a href="./pages/proyectos.html">Ver proyectos</a>
-                </div>
+                <ul>
+                    <li class="formacion"><h3 class="experiencia">Experiencía Laboral:</h3></li>
+                </ul>
             </section>
-            <section class="presentacion_sec">
-                <p class="present">Presentación</p>
-                <h2 class="introduction">¡Hola! Mi nombre es César Olvera</h2>
-                <h3>Cada desarrollo cuenta una gran historia</h3>
-                <p class="historia">Desde que comencé mi viaje del desarrollo tanto de forma independiente como en una empresa hace ya casi 3 años, he realizado trabajos remotos para diversas empresas, asesorando y colaborando con personas talentosas para crear proyectos digitales de forma comercial y de consumo. Soy de naturaleza tranquila, callada y observadora. Realizando mis trabajos en tiempo y forma.</p>
+            <section>
+                <table>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Puesto</th>
+                        <th>Fecha de:</th>
+                        <th>Fecha a:</th>
+                    </tr>
+                    <tr>
+                        <td>Yalla-ya</td>
+                        <td>Desarrollador Web</td>
+                        <td>Julio 2021</td>
+                        <td>Actual</td>
+                    </tr>
+                    <tr>
+                        <td>Hewkett Packard</td>
+                        <td>Desarroyador de dashboard</td>
+                        <td>Mayo 2018</td>
+                        <td>Marzo 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Izzi</td>
+                        <td>Soporte Tecnico</td>
+                        <td>Octubre 2017</td>
+                        <td>Enero 2018</td>
+                    </tr>
+                    <tr>
+                        <td>BiiaLab México</td>
+                        <td>Soporte tecnico <br> Marketing Digital</td>
+                        <td>Junio 2016</td>
+                        <td>Enero 2017</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <ul>
+                    <li class="formacion"><h3 class="experiencia">Formación Académica:</h3></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li class="formacion_curso">Desarrollo Web</li>
+                    <li class="formacion_escu">Coderhouse</li>
+                    <li class="formacion_ano">Octubre 2022 - Noviembre 2022</li>
+                    <li class="formacion_doc">Diploma</li>
+                </ul>
+                <ul>
+                    <li class="formacion_curso">Scrum Fundamental</li>
+                    <li class="formacion_escu">ScrumStudy</li>
+                    <li class="formacion_ano">Junio 2021</li>
+                    <li class="formacion_doc">Certificación</li>
+                </ul>
+                <ul>
+                    <li class="formacion_curso">Marketing Digital</li>
+                    <li class="formacion_escu">Marketing Mundial</li>
+                    <li class="formacion_ano">2016</li>
+                    <li class="formacion_doc">Diploma</li>
+                </ul>
+                <ul>
+                    <li class="formacion_curso">Ingeniería en Tecnología de la Información y Comunicación</li>
+                    <li class="formacion_escu">Instituto Tecnológico de Tlalnepantla</li>
+                    <li class="formacion_ano">Agosto 2012 - Diciembre 2015</li>
+                    <li class="formacion_doc">Cedula Profesional</li>
+                </ul>
+                <ul>
+                    <li class="formacion_curso">Cisco CCNA 4</li>
+                    <li class="formacion_escu">Instituto Tecnológico de Tlalnepantla</li>
+                    <li class="formacion_ano">Diciembre 2015</li>
+                    <li class="formacion_doc">-</li>
+                </ul>
             </section>
         </div>
-
     </main>
     <footer class="footer_section">
         <div class="fr3_footer">
             <section class="menu_footer">
                 <h4>Menu</h4>
-                <ul class="fotter_li_menu">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/proyectos.html">Proyectos</a></li>
-                    <li><a href="./pages/sobre_mi.html">Sobre mi</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./proyectos.html">Proyectos</a></li>
+                    <li><a href="#" class="active">Sobre mi</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
                 </ul>
             </section>
             <section>

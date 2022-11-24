@@ -1,0 +1,42 @@
+@media (min-width: 768px){
+    .home_page{
+        padding: 0 2rem;
+    }
+    .full_stack{
+        width: 80%;
+        margin: 3rem auto;
+    }
+    .img_full{
+        img{
+            width: 100%;
+        }
+    }
+    .diseno h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .diseno p{
+        font-size: 2rem;
+    }
+    .diseno a{
+        font-size: 1.5rem;
+    }
+    .present{
+        font-size: 2.5rem;
+    }
+    .historia{
+        font-size: 2rem;
+    }
+    .derechos p{
+        font-size: 1.5rem !important;
+    }
+    /*servicios*/
+    /*proyectos*/
+    .sobre_mi h1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .formacion{
+        margin-top: 2rem;
+    }
+}
