@@ -167,4 +167,123 @@ header {
 .body_landingPage {
   background-color: rgba(37, 38, 42, 0.8);
   padding: 5rem 1rem 0rem;
+}
+
+.welcome h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #65F3AB, #fff, #65F3AB);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-animation: shine 5s linear infinite;
+          animation: shine 5s linear infinite;
+  position: relative;
+}
+
+@-webkit-keyframes shine {
+  0% {
+    background-position-x: -50%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -50%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+.first_secction {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.full_stack {
+  background-color: #65F3AB;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.5rem 0.1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+}
+
+.frase {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.frase_2 {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.chat {
+  color: #65F3AB;
+  font-size: 1.3rem;
+  padding: 2rem 0 !important;
+  text-align: center;
+}
+
+.chat a {
+  color: #65F3AB;
+  text-decoration: none;
+}
+
+.experiencia {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.img_full img {
+  width: 100%;
+}
+
+.diseno {
+  background-color: #2D2E32;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+.diseno h2 {
+  text-align: center;
+}
+.diseno a {
+  color: #65F3AB;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+
+.present {
+  text-align: center;
+  font-size: 2rem;
+  color: #65F3AB;
+  font-weight: lighter;
+}
+
+.introduction {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.historia {
+  margin-top: 2rem;
 }/*# sourceMappingURL=main.css.map */
