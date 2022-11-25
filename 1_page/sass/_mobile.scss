@@ -1,0 +1,16 @@
+/*menu*/
+.topnav a{
+    padding: 1rem 1rem;
+}
+/*contenido*/
+.content {
+    padding-top: 5rem;
+}
+.content_firt {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.front-end {
+    background-color: $verde;
+    color: $blanco;
+}
