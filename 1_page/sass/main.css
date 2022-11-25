@@ -260,6 +260,10 @@ header {
   font-weight: lighter;
 }
 
+.content_thr {
+  margin: 1rem;
+}
+
 @media (min-width: 1021px) {
   .topnav a {
     padding: 1rem 4rem;
