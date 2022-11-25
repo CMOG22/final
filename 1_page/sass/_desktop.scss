@@ -2,4 +2,24 @@
     .topnav a{
         padding: 1rem 4rem;
     }
+
+    .content_firt {
+        grid-template-columns: 1fr 1fr;
+        border: $border;
+
+    }
+    .frases {
+        margin: auto;
+    }
+    .front_end {
+        width: 20rem;
+    }
+    .people {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        img {
+            width: 70%;
+        } 
+    }
 }

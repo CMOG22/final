@@ -39,7 +39,6 @@ h1, h3, h4, p {
 
 h1 {
   font-size: 2.5rem;
-  margin-left: 5rem;
 }
 
 h2 {
@@ -171,13 +170,116 @@ header {
   grid-template-columns: 1fr;
 }
 
-.front-end {
+.front_end {
   background-color: #65F3AB;
+  border-radius: 0.4rem;
+  margin: 0 1rem 0 1rem;
+}
+.front_end h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.frase {
+  margin: 2rem 1rem 0 1rem;
+}
+.frase p {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.frase_2 {
+  margin: 2rem 1rem 0 1rem;
+}
+.frase_2 p {
+  font-weight: lighter;
+}
+
+.chat {
+  margin: 4rem 1rem 0 1rem;
+  text-align: center;
+}
+.chat a {
+  color: #65F3AB;
+}
+
+.fr2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 5rem 1rem;
+}
+.fr2 h3 {
+  text-align: right;
+  font-size: 3rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.fr2 p {
+  line-height: 1rem;
+}
+
+.people {
+  margin-top: -33rem;
+  z-index: -1;
+}
+.people img {
+  width: 100%;
+}
+
+.diseno {
+  margin: 2rem 1rem 0 1rem;
+  padding: 1.5rem;
+  background-color: #25262A;
+  border-radius: 1rem;
+}
+.diseno h3 {
+  color: #65F3AB;
+  font-weight: 600;
+}
+
+.content_secont {
+  margin: 2rem 1rem 0 1rem;
+}
+.content_secont .present {
+  font-size: 1.2rem;
+}
+.content_secont .nombre {
+  font-size: 2.5rem;
   color: white;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.content_secont .desarrollo {
+  margin: 2rem 0;
+  font-style: italic;
+}
+.content_secont .historia {
+  font-weight: lighter;
 }
 
 @media (min-width: 1021px) {
   .topnav a {
     padding: 1rem 4rem;
+  }
+  .content_firt {
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid red;
+  }
+  .frases {
+    margin: auto;
+  }
+  .front_end {
+    width: 20rem;
+  }
+  .people {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .people img {
+    width: 70%;
   }
 }/*# sourceMappingURL=main.css.map */
