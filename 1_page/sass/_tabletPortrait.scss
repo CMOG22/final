@@ -43,6 +43,14 @@
         }
     }
     .content_thr {
-        width: 100%;
+        margin: auto;
+        width: 90%;
+    }
+    .contact {
+        margin-top: 10rem;
+        border: $border;
+        iframe {
+            height: 20rem;
+        }
     }
 }
