@@ -96,12 +96,15 @@ header{
     }
 }
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: $blanco;
+    border: 2px solid $verde;
+    border-radius: 0.5rem;
 }
 .topnav a.active {
     background-color: #04AA6D;
-    color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0.5rem;
 }
 .topnav .icon {
     display: none;
@@ -147,4 +150,9 @@ header{
             width: 1.5rem;
         }
     }
+}
+.arrow-top{
+    position: fixed;
+    top: 90%;
+    right: 5%;
 }

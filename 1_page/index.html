@@ -29,11 +29,10 @@
             </section>
             <section class="menu">
                 <div class="topnav" id="myTopnav">
-                    <a href="">Home</a>
-                    <a href="">Servicios</a>
-                    <a href="">Proyectos</a>
-                    <a href="">Sobre mi</a>
-                    <a href="">Contacto</a>
+                    <a href="#arriba" class="active">Home</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                     </a>
@@ -49,7 +48,19 @@
             </section>
         </div>
     </header>
+    <div id="arriba"></div>
     <main class="content">
+        <div class="arrow-top">
+            <a href="#arriba">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="12" y1="8" x2="8" y2="12" />
+                    <line x1="12" y1="8" x2="12" y2="16" />
+                    <line x1="16" y1="12" x2="12" y2="8" />
+                </svg>
+            </a>
+        </div>
         <div class="content_firt">
             <section class="frases">
                 <div class="front_end">
@@ -87,6 +98,7 @@
             <section class="people">
                 <img src="./img/cmog_persona.png" alt="">
             </section>
+            <div id="habilidades"></div>
         </div>
         <div class="content_firt">
             <section>
@@ -109,27 +121,25 @@
                 <h4 class="desarrollo">Cada desarrollo cuenta una gran historia</h4>
                 <p class="historia">Desde que comencé mi viaje del desarrollo tanto de forma independiente como en una empresa hace ya casi 3 años, he realizado trabajos remotos para diversas empresas, asesorando y colaborando con personas talentosas para crear proyectos digitales de forma comercial y de consumo. Soy de naturaleza tranquila, callada y observadora. Realizando mis trabajos en tiempo y forma.</p>
             </section>
+            <div id="proyectos"></div>
         </div>
         <div class="content_thr">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/yalla_ya_logo.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/001-pymempresario-slide.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/pymempresario.webp" class="d-block w-100" alt="...">
+                        <img src="./img/002-abogadorapido-slide.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/abogado_rapido.png" class="d-block w-100" alt="...">
+                        <img src="./img/003-bakereast-slide.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/Bakereast vertical.png" class="d-block w-100" alt="...">
+                        <img src="./img/004-falafelito-slide.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/falafelito.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/chabad zoom.webp" class="d-block w-100" alt="...">
+                        <img src="./img/005-chabadzoom-slide.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -141,10 +151,175 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div id="contacto"></div>
+        </div>
+        <div class="contact">
+            <section>
+                <h4>Contacto</h4>
+                <p>¿Quieres ponerte en contacto?</p>
+                <p>Comunicate mediante los siguientes medios:</p>
+                <div class="contact_fr2">
+                    <section>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <rect x="3" y="5" width="18" height="14" rx="2" />
+                                <polyline points="3 7 12 13 21 7" />
+                            </svg>
+                        </a>
+                    </section>
+                    <section>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                                <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                            </svg>
+                        </a>
+                    </section>
+                </div>
+                <p>O si lo prefieres llena el formulario que se encuentra a la derecha y me pondré en contacto a la brevedad.
+                También en el pie de página podrás encontrar mi redes sociales.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240864.08481701676!2d-99.14361265000001!3d19.3907336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sCiudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1665613027656!5m2!1ses-419!2smx" width="700px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <div class="formulario">
+                    <label for="name">Nombre y Apellido:</label>
+                    <input type="text" placeholder="Nombre y Apellido">
+                    <label for="Ciudad">Ciudad:</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="AGS">Aguascalientes</option>
+                        <option value="BCN">Baja California</option>
+                        <option value="BCS">Baja California Sur</option>
+                        <option value="CAM">Campeche</option>
+                        <option value="CHP">Chiapas</option>
+                        <option value="CHI">Chihuahua</option>
+                        <option value="DIF">Ciudad de México</option>
+                        <option value="COA">Coahuila</option>
+                        <option value="COL">Colima</option>
+                        <option value="DUR">Durango</option>
+                        <option value="MEX">Estado de México</option>
+                        <option value="GTO">Guanajuato</option>
+                        <option value="GRO">Guerrero</option>
+                        <option value="HGO">Hidalgo</option>
+                        <option value="JAL">Jalisco</option>
+                        <option value="MIC">Michoacán</option>
+                        <option value="MOR">Morelos</option>
+                        <option value="NAY">Nayarit</option>
+                        <option value="NLE">Nuevo León</option>
+                        <option value="OAX">Oaxaca</option>
+                        <option value="PUE">Puebla</option>
+                        <option value="QRO">Querétaro</option>
+                        <option value="ROO">Quintana Roo</option>
+                        <option value="SLP">San Luis Potosí</option>
+                        <option value="SIN">Sinaloa</option>
+                        <option value="SON">Sonora</option>
+                        <option value="TAB">Tabasco</option>
+                        <option value="TAM">Tamaulipas</option>
+                        <option value="TLX">Tlaxcala</option>
+                        <option value="VER">Veracruz</option>
+                        <option value="YUC">Yucatán</option>
+                        <option value="ZAC">Zacatecas</option>
+                    </select>
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" placeholder="##-####-####">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="hola@gmail.com">
+                    <div class="check">
+                        <label for="Consulta">Consulta</label>
+                        <input type="checkbox" id="consulta" name="consulta" value="consulta">
+                        <label for="Consulta">Contratación</label>
+                        <input type="checkbox" id="contratacion" name="contratacion" value="contratacion">
+                        <label for="Consulta">Clases</label>
+                        <input type="checkbox" id="clase" name="clase" value="clase">
+                    </div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-    <footer>
-
+    <footer class="footer_section">
+        <div class="fr3_footer">
+            <section class="menu_footer">
+                <h4>Menu</h4>
+                <ul class="fotter_li_menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="./pages/servicios.html">Servicios</a></li>
+                    <li><a href="./pages/proyectos.html">Proyectos</a></li>
+                    <li><a href="./pages/sobre_mi.html">Sobre mi</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </section>
+            <section>
+                <h4>Contacto</h4>
+                <div class="fr2_footer">
+                    <section>
+                        <a href="mailto: olvera_cesar.m@hotmail.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="3rem" height="3rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg></a>
+                    </section>
+                    <section>
+                        <a href="tel:+525587412153" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="3rem" height="3rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                        </svg></a>
+                    </section>
+                    <section>
+                        <a href="./pages/contacto.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-forms" width="3rem" height="3rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M12 3a3 3 0 0 0 -3 3v12a3 3 0 0 0 3 3" />
+                            <path d="M6 3a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3" />
+                            <path d="M13 7h7a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-7" />
+                            <path d="M5 7h-1a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1h1" />
+                            <path d="M17 12h.01" />
+                            <path d="M13 12h.01" />
+                        </svg></a>
+                    </section>
+                </div>
+            </section>
+            <section class="footer_redes">
+                <h4>Redes</h4>
+                <div class="fr5_redes_footer">
+                    <section><a href="https://www.facebook.com/cesar.olvera.39" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg></a></section>
+                    <section><a href="https://github.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg></a></section>
+                    <section><a href="https://twitter.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg></a></section>
+                    <section><a href="https://www.pinterest.com.mx/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-pinterest" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="8" y1="20" x2="12" y2="11" />
+                        <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
+                        <circle cx="12" cy="12" r="9" />
+                    </svg></a></section>
+                    <section><a href="https://discord.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="9" cy="12" r="1" />
+                        <circle cx="15" cy="12" r="1" />
+                        <path d="M7.5 7.5c3.5 -1 5.5 -1 9 0" />
+                        <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+                        <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5" />
+                        <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5" />
+                    </svg></a></section>
+                </div>
+            </section>
+        </div>
+        <div class="derechos">
+            <p>CMOG © 2022 Todos los derechos reservados. Se prohíbe el uso de la información total o parcial sin dar referencia a la fuente. Desarrollado por <a href="#">CMOG</a></p>
+        </div>
     </footer>
     <script>
         function myFunction() {
