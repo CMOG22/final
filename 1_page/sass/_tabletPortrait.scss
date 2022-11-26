@@ -1,0 +1,48 @@
+@media (min-width:481px) {
+    .content_firt {
+        grid-template-columns: 1fr 1fr;
+    }
+    .front_end {
+        width: 15rem;
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+    .frase {
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+    }
+    .chat {
+        margin: 1rem ;
+    }
+    .fr2 {
+        margin: 2rem 1rem;
+    }
+    .people {
+        margin-top: 0;
+        z-index: -1;
+        img {
+            width: 100%;
+        }
+    }
+    .content_secont {
+        .present {
+            font-size: 1rem;
+        }
+        .nombre {
+            font-size: 1.5rem;
+        }
+        .desarrollo {
+            font-size: 1.1rem;
+        }
+        .historia {
+            font-size: 1.1rem;
+        }
+    }
+    .content_thr {
+        width: 100%;
+    }
+}

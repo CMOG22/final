@@ -377,32 +377,47 @@ header {
        column-gap: 2rem;
 }
 
-@media (min-width: 1021px) {
-  .topnav a {
-    padding: 1rem 4rem;
-  }
+@media (min-width: 481px) {
   .content_firt {
     grid-template-columns: 1fr 1fr;
   }
-  .frases {
-    margin: auto;
-  }
   .front_end {
-    width: 20rem;
+    width: 15rem;
+  }
+  .front_end h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .frase p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .chat {
+    margin: 1rem;
+  }
+  .fr2 {
+    margin: 2rem 1rem;
   }
   .people {
-    display: flex;
-    justify-content: center;
     margin-top: 0;
+    z-index: -1;
   }
   .people img {
-    width: 70%;
+    width: 100%;
+  }
+  .content_secont .present {
+    font-size: 1rem;
+  }
+  .content_secont .nombre {
+    font-size: 1.5rem;
+  }
+  .content_secont .desarrollo {
+    font-size: 1.1rem;
+  }
+  .content_secont .historia {
+    font-size: 1.1rem;
   }
   .content_thr {
-    margin: 1rem;
-    width: 30rem;
-    height: 20rem;
-    max-width: 30rem;
-    max-height: 20rem;
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
