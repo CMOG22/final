@@ -172,6 +172,9 @@
             color: $blanco !important;
         }
     }
+    li {
+        list-style-type: none;
+    }
     li a:hover:not(.active){
         color: black;
         background-color: $verde;

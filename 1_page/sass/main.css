@@ -362,6 +362,9 @@ header {
   border-radius: 10px;
   color: white !important;
 }
+.menu_footer li {
+  list-style-type: none;
+}
 .menu_footer li a:hover:not(.active) {
   color: black;
   background-color: #65F3AB;
@@ -468,7 +471,7 @@ header {
     max-width: 80%;
   }
   .topnav a {
-    padding: 1rem 4rem;
+    padding: 1rem 1rem;
   }
   .content_firt {
     gap: 2rem;
