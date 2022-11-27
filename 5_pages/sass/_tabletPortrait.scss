@@ -56,3 +56,14 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+/*Servicios*/
+.topnav {
+    a {
+        padding: 1rem 0.3rem;
+    }
+}
+.servicios_fr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.3rem;
+}

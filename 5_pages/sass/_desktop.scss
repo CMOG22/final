@@ -72,4 +72,13 @@
     .fr5_redes_footer {
         text-align: left;
     }
+    /*servicios*/
+    .servicios{
+        padding: 5rem 2rem 0;
+        margin: 0 5rem;
+    }
+    .servicios_fr{
+        grid-template-columns: 70% 30%;
+        align-items: center;
+    }
 }

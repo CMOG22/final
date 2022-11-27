@@ -455,6 +455,18 @@ header {
     grid-template-columns: 1fr 1fr;
   }
 }
+/*Servicios*/
+.topnav a {
+  padding: 1rem 0.3rem;
+}
+
+.servicios_fr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 1.3rem;
+       column-gap: 1.3rem;
+}
+
 @media (min-width: 768px) {
   .contact iframe {
     width: 100%;
@@ -477,6 +489,7 @@ header {
   .formulario .contact_form .check input[type=checkbox] {
     width: 1rem;
   }
+  /*servicios*/
 }
 @media (min-width: 1021px) {
   body {
@@ -543,5 +556,14 @@ header {
   }
   .fr5_redes_footer {
     text-align: left;
+  }
+  /*servicios*/
+  .servicios {
+    padding: 5rem 2rem 0;
+    margin: 0 5rem;
+  }
+  .servicios_fr {
+    grid-template-columns: 70% 30%;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */
