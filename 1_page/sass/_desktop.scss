@@ -1,3 +1,75 @@
 @media (min-width:1021px){
-    
+    body {
+        max-width: 80%;
+    }
+    header {
+        max-width: 80%;
+    }
+    .topnav {
+        a {
+            padding: 1rem 4rem;
+        }
+    }
+    .content_firt {
+        gap: 2rem;
+        .front_end {
+            padding: 0.2rem 2rem;
+            width: 27rem;
+            h1 {
+                font-size: 2rem;
+            }
+        }
+        .frase {
+            p {
+                font-size: 3rem;
+                font-style: italic;
+            }
+        }
+        .frase_2 {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        .frases {
+            margin: auto;
+        }
+        .chat {
+            margin: 3rem 0;
+            a {
+                font-size: 1.5rem;
+            }
+        }
+        .people {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .content_secont {
+        .present {
+            font-size: 1.5rem;
+        }
+        .nombre {
+            font-size: 2.5rem;
+            font-style: italic;
+        }
+    }
+    .content_thr {
+        max-width: 70%;
+    }
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+    .fr3_footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .fr2_footer {
+        text-align: left;
+        width: 15rem;
+    }
+    .fr5_redes_footer {
+        text-align: left;
+    }
 }

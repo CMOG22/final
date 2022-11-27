@@ -96,8 +96,6 @@
 }
 .content_thr {
     margin: 1rem;
-    height: 15rem;
-    max-height: 20rem;
 }
 .contact {
     display: grid;
@@ -149,7 +147,7 @@
     margin: 2rem 1rem 0 1rem;
 }
 .footer_section{
-    background-color: $fondo_body;
+    background-color: $fondo;
     margin-top: -1rem;
     padding-top: 3rem;
 }
@@ -192,5 +190,5 @@
 .fr5_redes_footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: 0.5rem;
 }

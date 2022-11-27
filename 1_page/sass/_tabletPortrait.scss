@@ -47,9 +47,12 @@
         width: 90%;
     }
     .contact {
-        margin-top: 10rem;
         iframe {
             height: 20rem;
         }
+    }
+    .fr3_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
