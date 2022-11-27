@@ -40,7 +40,7 @@ section h1 {
   color: transparent;
   -webkit-text-stroke: #fff;
   -webkit-text-stroke-width: 1px;
-  text-shadow: 2px 2px 10px #2962ff;
+  text-shadow: 2px 2px 10px #65F3AB;
   transition: all 0.5s ease-in-out;
   text-align: center;
   letter-spacing: 0.2em;
@@ -60,22 +60,22 @@ section h1 {
 @-webkit-keyframes flicker {
   0% {
     opacity: 0.5;
-    text-shadow: 2px 2px 10px #2962ff;
+    text-shadow: 2px 2px 10px #65F3AB;
   }
   100% {
     opacity: 1;
-    text-shadow: 2px 2px 20px #2962ff;
+    text-shadow: 2px 2px 20px #65F3AB;
   }
 }
 
 @keyframes flicker {
   0% {
     opacity: 0.5;
-    text-shadow: 2px 2px 10px #2962ff;
+    text-shadow: 2px 2px 10px #65F3AB;
   }
   100% {
     opacity: 1;
-    text-shadow: 2px 2px 20px #2962ff;
+    text-shadow: 2px 2px 20px #65F3AB;
   }
 }
 .fr2 {
@@ -84,11 +84,11 @@ section h1 {
   border-radius: 1rem;
 }
 .fr2 a {
-  text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 .fr2 h2:hover {
-  color: #2962ff;
+  color: #65F3AB;
 }
 
 @media (max-width: 768px) {

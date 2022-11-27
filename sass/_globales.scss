@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
 $blue: #2962ff;
+$verde: #65F3AB;
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -41,7 +42,7 @@ section {
 	color: transparent;
 	-webkit-text-stroke: #fff;
 	-webkit-text-stroke-width: 1px;
-	text-shadow: 2px 2px 10px $blue;
+	text-shadow: 2px 2px 10px $verde;
 	transition: all 0.5s ease-in-out;
 	text-align: center;
 	letter-spacing: 0.2em;
@@ -61,11 +62,11 @@ section {
 @keyframes flicker {
 	0% {
 		opacity: 0.5;
-		text-shadow: 2px 2px 10px $blue;
+		text-shadow: 2px 2px 10px $verde;
 	}
 	100% {
 		opacity: 1;
-		text-shadow: 2px 2px 20px $blue;
+		text-shadow: 2px 2px 20px $verde;
 	}
 }
 .fr2{
@@ -73,11 +74,11 @@ section {
     grid-template-columns: 50% 50%;
     border-radius: 1rem;
     a {
-        text-decoration: none;
         color: #fff;
+		text-align: center;
     }
     h2:hover{
-        color: $blue;
+        color: $verde;
     }
 }
 @media (max-width:768px){
