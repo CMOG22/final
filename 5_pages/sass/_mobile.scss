@@ -209,3 +209,65 @@
         margin-bottom: 2rem;
     }
 }
+/*proyectos*/
+.proyectos{
+    padding: 5rem 1rem 0;
+    background-color: $fondo;
+}
+.wordpress_tittle{
+    text-align: center;
+}
+.wordpress{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+.wordpress_2{
+    background-color: $fondo_body;
+    height: 20rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2rem;
+    h4{
+        margin-top: 2rem;
+    }
+    img{
+        width: 8rem;
+        padding-top: 5rem;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.abogado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+.bakereast{
+    width: 8rem !important;
+    margin-top: -5rem;
+}
+.chabat{
+    margin-top: -2.5rem;
+}
+
+.front{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    padding: 1rem;
+}
+.front_2{
+    background-color: $fondo_body;
+    height: 20rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.promoestilo{
+    width: 13rem !important;
+    margin-top: 5rem;
+}

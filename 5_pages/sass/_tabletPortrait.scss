@@ -55,8 +55,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
-/*Servicios*/
+    /*Servicios*/
 .topnav {
     a {
         padding: 1rem 0.3rem;
@@ -66,4 +65,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1.3rem;
+}
+/*proyectos*/
+.wordpress, .front{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }

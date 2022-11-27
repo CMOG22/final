@@ -81,4 +81,12 @@
         grid-template-columns: 70% 30%;
         align-items: center;
     }
+    /*Proyectos*/
+    .proyectos{
+        padding: 5rem 2rem 0;
+        margin: 0 5rem;
+    }
+    .wordpress, .front{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
