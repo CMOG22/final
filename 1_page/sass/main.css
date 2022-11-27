@@ -113,6 +113,13 @@ header {
   border-radius: 0.5rem;
 }
 
+.active {
+  background-color: #04AA6D;
+  color: black;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
 .topnav .icon {
   display: none;
 }

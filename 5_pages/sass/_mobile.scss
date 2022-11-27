@@ -1,13 +1,153 @@
 /*menu*/
-.navbar-nav{
-    padding-top: 1rem !important;
-    padding-bottom: 10rem !important;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+.topnav a{
+    padding: 1rem 1rem;
 }
-/*footer*/
+/*contenido*/
+.content {
+    padding-top: 5rem;
+}
+.content_firt {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.front_end {
+    background-color: $verde;
+    border-radius: 0.4rem;
+    margin: 0 1rem 0 1rem;
+    box-shadow: 5px 5px $verde_dark;
+    h1 {
+        color: black;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+.frase {
+    margin: 2rem 1rem 0 1rem;
+    p {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: bold;
+    }
+}
+.frase_2 {
+    margin: 2rem 1rem 0 1rem;
+    p {
+        font-weight: lighter;
+    }
+}
+.chat {
+    margin: 4rem 1rem 0 1rem;
+    text-align: center;
+    a {
+        color: $verde;
+    }
+}
+.fr2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 5rem 1rem;
+    h3 {
+        text-align: right;
+        font-size: 3rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+    p {
+        line-height: 1rem;
+    }
+}
+.people {
+    margin-top: -33rem;
+    z-index: -1;
+    img {
+        width: 100%;
+    }
+}
+.diseno {
+    margin: 2rem 1rem 0 1rem;
+    padding: 1.5rem;
+    background-color: #25262A;
+    border-radius: 1rem;
+    box-shadow: 5px 5px $verde_dark;
+    h3 {
+        color: $verde;
+        font-weight: 600;
+    }
+}
+.content_secont {
+    margin: 2rem 1rem 0 1rem;
+    .present {
+        font-size: 1.2rem;
+    }
+    .nombre {
+        font-size: 2.5rem;
+        color: $blanco;
+        font-weight: bold;
+        margin: 2rem 0;
+    }
+    .desarrollo {
+        margin: 2rem 0;
+        font-style: italic;
+    }
+    .historia {
+        font-weight: lighter;
+    }
+}
+.content_thr {
+    margin: 1rem;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 1rem 0 1rem;
+    iframe {
+        max-width: 100%;
+    }
+}
+.contact_fr2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formulario {
+    label {
+        color: $blanco;
+        margin: 0.5rem 0;
+    }
+    input[type=text], select, input[type=tel], input[type=email],textarea {
+        width: 100%;
+        padding: 0.3rem;
+        border-radius: 10px;
+        box-sizing: border-box;
+        resize: vertical !important;
+        box-shadow: 3px 3px $verde_dark;
+    }
+    .check {
+        display: flex;
+        justify-content: space-between;
+    }
+    .enviar {
+        display: flex;
+        justify-content: center;
+    }
+    input[type=submit]{
+        background-color: $verde;
+        border-radius: 10px;
+        width: 10rem;
+        height: 2.5rem;
+        font-weight: bold;
+    }
+    label {
+        color: $blanco;
+    }
+}
+.footer_fr {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 1rem 0 1rem;
+}
 .footer_section{
-    background-color: $fondo_body;
+    background-color: $fondo;
     margin-top: -1rem;
     padding-top: 3rem;
 }
@@ -17,13 +157,13 @@
 .menu_footer{
     font-size: 1.5rem;
     h4{
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
     a{
         font-family: 'Courier New', Courier, monospace;
         text-decoration: none;
         color: $blanco;
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-left: 2rem;
         padding-right: 2rem;
         :hover{
@@ -37,9 +177,8 @@
         background-color: $verde;
     }
 }
-
 .fr3_footer h4{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-left: 2rem;
 }
 .fr2_footer{
@@ -50,116 +189,12 @@
 .fr5_redes_footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 2rem;
-}
-.derechos{
-    margin: 2rem;
-    p{
-        font-size: 0.8rem;
-        text-align: center;
-    }
-}
-/*body*/
-/*home*/
-.home_page{
-    padding-top: 5rem;
-    background-color: $fondo_body;
-    padding: 5rem 1rem 0rem;
-}
-.welcome h2{
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, #65F3AB, #fff, #65F3AB);
-    letter-spacing: 5px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: shine 5s linear infinite;
-    position: relative;
-}
-@keyframes shine{
-    0% {
-        background-position-x: -50%;
-    }
-    100% {
-        background-position-x: 500%;
-    }
-}
-.full_stack{
-    background-color: $verde;
-    font-weight: bold;
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    text-align: center;
-    color: black;
-    border-radius: 10px;
-}
-.frase{
-    font-size: 2.5rem;
-    line-height: 2.4rem;
-    text-align: center;
-    font-style: italic;
-}
-.frase_2{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    font-size: 1.7rem;
-}
-.chat{
-    color: $verde;
-    font-size: 1.5rem;
-    padding: 3rem 0 !important;
-    text-align: center;
-}
-.chat a{
-    color: $verde;
-    text-decoration: none;
-}
-.experiencia{
-    font-size: 1.5rem;
-    text-align: center;
-}
-.img_full img{
-    width: 100%;
-}
-
-.diseno{
-    h2{
-        text-align: center;
-    }
-    a{
-    color: $verde;
-    text-decoration: none;
-    display: flex;
-    justify-content: end;
-    margin-bottom: 2rem;
-    }
-}
-
-.present{
-    text-align: center;
-    font-size: 2rem;
-    color: $verde;
-    font-weight: lighter;
-}
-.introduction{
-    text-align: center;
-    font-size: 3rem;
-    color: $blanco;
-}
-.historia{
-    margin-top: 2rem;
+    column-gap: 0.5rem;
 }
 /*servicios*/
 .servicios{
     padding: 5rem 1rem 0rem;
-    background-color: $fondo_body;
+    background-color: $fondo;
     h2{
         text-align: center;
     }
@@ -173,183 +208,4 @@
         width: 100%;
         margin-bottom: 2rem;
     }
-}
-/*proyectos*/
-.proyectos{
-    padding: 5rem 1rem 0;
-    background-color: $fondo_body;
-}
-.wordpress_tittle{
-    text-align: center;
-}
-.wordpress{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1rem;
-}
-.wordpress_2{
-    background-color: #2d2e32;
-    height: 20rem;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 2rem;
-    h4{
-        margin-top: 2rem;
-    }
-    img{
-        width: 8rem;
-        padding-top: 5rem;
-    }
-    a{
-        text-decoration: none;
-    }
-}
-.abogado{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 5rem;
-}
-.bakereast{
-    width: 8rem !important;
-    margin-top: -5rem;
-}
-.chabat{
-    margin-top: -2.5rem;
-}
-
-.front{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1.5rem;
-    padding: 1rem;
-}
-.front_2{
-    background-color: #2d2e32;
-    height: 20rem;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 2rem;
-}
-.promoestilo{
-    width: 13rem !important;
-    margin-top: 5rem;
-}
-/*sobre mi*/
-.sobre_mi{
-    padding: 5rem 1rem 0;
-    background-color: $fondo_body;
-}
-.descargar{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-.foto_center{
-    display: flex;
-    justify-content: center;
-}
-.foto{
-    width: 10rem;
-}
-.cv{
-    display: flex;
-    justify-content: center;
-    color: $verde;
-    text-decoration: none;
-}
-table, th, td{
-    border: 1px solid $blanco;
-    color: $blanco;
-    height: 5rem;
-}
-table{
-    margin-left: 0;
-    width: 100%;
-}
-td{
-    border-right: 0;
-    border-left: 0;
-    border-bottom: 0;
-}
-th, td{
-    color: $blanco;
-    text-align: center;
-}
-.formacion_curso, .formacion_escu, .formacion_ano, .formacion_doc{
-    color: white;
-    list-style-type: none;
-    margin-left: 0rem;
-}
-.formacion_escu, .formacion_ano, .formacion_doc{
-    padding-left: 2rem;
-}
-.formacion_escu{
-    font-size: 1.3rem;
-}
-.formacion_curso{
-    font-size: 1.7rem;
-    font-style: italic;
-    font-weight: bold;
-    border-bottom: 1px solid #65F3AB;
-    width: 45rem;
-    max-width: 100%;
-}
-.formacion_ano, .formacion_doc{
-    font-size: 1.3rem;
-}
-/*contacto*/
-.container{
-    display: flex !important;
-    justify-content: center !important;
-    margin-left: 2rem !important;
-    width: 90% !important;
-    max-width: 90% !important;
-}
-.contacto{
-    padding: 5rem 1rem 0;
-    background-color: $fondo_body;
-}
-.contac{
-    display: flex;
-    justify-content: space-around;
-}
-.col iframe{
-    width: 100%;
-}
-label{
-    color: $blanco;
-    margin-left: 1rem;
-}
-input[type=text], select, input[type=tel], input[type=email],textarea{
-    width: 100%;
-    padding: 1rem;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize:vertical !important;
-}
-.check{
-    display: flex;
-    justify-content: space-between;
-}
-input[type=checkbox]{
-    margin-left: -4rem;
-}
-.enviar{
-    display: flex;
-    justify-content: center;
-}
-input[type=submit]{
-    background-color: $verde;
-    border-radius: 10px;
-    width: 10rem;
-    height: 2.5rem;
-    font-weight: bold;
-
-}
-label{
-    color: white;
 }

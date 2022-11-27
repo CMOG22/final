@@ -1,205 +1,75 @@
 @media (min-width:1021px){
-    .navbar-nav{
-        padding-bottom: 0rem !important;
+    body {
+        max-width: 80%;
     }
-    .container-fluid{
-        img{
-            width: 2rem;
+    header {
+        max-width: 80%;
+    }
+    .topnav {
+        a {
+            padding: 1rem 2rem;
         }
     }
-    .navbar{
-        margin: 0 5rem;
-        font-size: 1.2rem;
-    }
-    .navbar-brand{
-        display: flex;
-        justify-content: center;
-        width: 10rem;
-    }
-    .navbar-nav{
-        display: flex !important;
-        justify-content: space-evenly !important;
-        width: 100%;
-    }
-    /*footer*/
-    .footer_section{
-        margin: 0 5rem;
-    }
-    .fr3_footer{
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        column-gap: 3rem;
-        margin-bottom: -5rem;
-        h4{
-            font-size: 1.3rem;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    }
-    .menu_footer{
-        h4{
-            padding-left: 5rem;
-            font-size: 1.3rem !important;
-        }
-        li{
-            list-style: none;
-            width: 15rem;
-            display: flex;
-            justify-content: initial;
-            text-align: left;
-            margin-left: 5rem;
-            a{
-                display: block;
-                margin-left: -2rem;
-                font-size: 1rem !important;
+    .content_firt {
+        gap: 2rem;
+        .front_end {
+            padding: 0.2rem 2rem;
+            width: 27rem;
+            h1 {
+                font-size: 2rem;
             }
         }
-
-    }
-    .fr2_footer{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 3rem 3rem 3rem;
-        column-gap: 3rem;
-    }
-    .fr5_redes_footer{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 3rem 3rem 3rem 3rem 3rem;
-        max-width: 100%;
-    }
-    .derechos{
-        a{
-            margin: 0;
-            text-decoration: none;
+        .frase {
+            p {
+                font-size: 3rem;
+                font-style: italic;
+            }
         }
-        p{
-            font-size: 0.9rem !important;
+        .frase_2 {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        .frases {
+            margin: auto;
+        }
+        .chat {
+            margin: 3rem 0;
+            a {
+                font-size: 1.5rem;
+            }
+        }
+        .people {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 90%;
+            }
         }
     }
-    /*body*/
-    /*home*/
-    .home_page{
-        padding: 5rem 2rem 0;
-        margin: 0 5rem;
-    }
-    .body_fr2_1{
-        display: grid;
-        column-gap: 1.5rem;
-        grid-template-columns: 1fr 1fr;
-        padding: 1rem;
-    }
-    .body_fr2{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        column-gap: 1.5rem;
-    }
-    .frase{
-        font-size: 2.5rem;
-        text-align: justify;
-    }
-    .frase_2{
-        font-size: 1.5re,;
-        padding-top: 1rem;
-        margin-bottom: -1rem;
-    }
-    .chat{
-        padding-top: 2rem !important;
-    }
-
-    .fr2_2{
-        background-color: rgba(37, 38, 42, 0.7);
-        width: 94%;
-        display: grid;
-        grid-template-columns: 1fr 1fr !important;
-        column-gap: 3rem;
-    }
-    .diseno, .full, .seo{
-        background-color: #2D2E32;
-        width: 80%;
-        padding: 1rem 1.5rem;
-        margin: 1rem;
-        border-radius: 15px;
-    }
-    .diseno{
-        width: 95%;
-        h2{
+    .content_secont {
+        .present {
             font-size: 1.5rem;
         }
-        p{
-            font-size: 1.3rem;
-        }
-        a{
-            font-size: 1.3rem;
-            color: $verde;
-            line-height: 5px;
-            display: flex;
-            justify-content: end;
-            text-align: right;
-            font-family:'Courier New', Courier, monospace;
+        .nombre {
+            font-size: 2.5rem;
+            font-style: italic;
         }
     }
-    .introduction{
-        font-size: 4rem;
+    .content_thr {
+        max-width: 70%;
     }
-    .introduction{
-        font-size: 2.5rem;
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
+    .contact {
+        grid-template-columns: 1fr 1fr;
     }
-    .presentacion_sec{
-        margin: 1rem;
+    .fr3_footer {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .present{
-        font-size: 2rem;
-        padding-top: 0rem;
+    .fr2_footer {
+        text-align: left;
+        width: 15rem;
     }
-    .historia{
-        font-size: 1.1rem;
-        text-align: justify;
-    }
-    /*servicios*/
-    .servicios{
-        padding: 5rem 2rem 0;
-        margin: 0 5rem;
-    }
-    .servicios_fr{
-        grid-template-columns: 70% 30%;
-        align-items: center;
-    }
-    /*Proyectos*/
-    .proyectos{
-        padding: 5rem 2rem 0;
-        margin: 0 5rem;
-    }
-    .wordpress, .front{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    /*Sobre mi*/
-    .sobre_mi{
-        padding: 5rem 2rem 1rem;
-        margin: 0 5rem;
-        h2{
-            margin-top: 3rem;
-        }
-    }
-    .descargar{
-        text-align: center;
-        padding-top: 3rem;
-        margin-bottom: -5rem;
-    }
-    .fr2_sobre{
-        display: grid;
-        grid-template-columns: 25% 75%;
-        column-gap: 1.5rem;
-        padding: 1rem;
-    }
-    .fr2_cv{
-        display: grid;
-        grid-template-columns: 20% 80%;
-        column-gap: 1.5rem;
-    }
-    /*contacto*/
-    .contacto{
-        margin: 0 5rem;
+    .fr5_redes_footer {
+        text-align: left;
     }
 }
