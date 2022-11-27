@@ -274,3 +274,66 @@
     width: 13rem !important;
     margin-top: 5rem;
 }
+/*sobre mi*/
+.sobre_mi{
+    padding: 5rem 1rem 0;
+    background-color: $fondo_body;
+}
+.descargar{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.foto_center{
+    display: flex;
+    justify-content: center;
+}
+.foto{
+    width: 10rem;
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    color: $verde;
+    text-decoration: none;
+}
+table, th, td{
+    border: 1px solid $blanco;
+    color: $blanco;
+    height: 5rem;
+}
+table{
+    margin-left: 0;
+    width: 100%;
+}
+td{
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+th, td{
+    color: $blanco;
+    text-align: center;
+}
+.formacion_curso, .formacion_escu, .formacion_ano, .formacion_doc{
+    color: white;
+    list-style-type: none;
+    margin-left: 0rem;
+}
+.formacion_escu, .formacion_ano, .formacion_doc{
+    padding-left: 2rem;
+}
+.formacion_escu{
+    font-size: 1.3rem;
+}
+.formacion_curso{
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 1px solid #65F3AB;
+    width: 45rem;
+    max-width: 100%;
+}
+.formacion_ano, .formacion_doc{
+    font-size: 1.3rem;
+}

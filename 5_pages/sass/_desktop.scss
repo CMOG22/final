@@ -89,4 +89,32 @@
     .wordpress, .front{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+    /*Sobre mi*/
+    .sobre_mi{
+        padding: 5rem 2rem 1rem;
+        margin: 0 5rem;
+        h2{
+            margin-top: 3rem;
+        }
+    }
+    .descargar{
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: -5rem;
+    }
+    .fr2_sobre{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        column-gap: 1.5rem;
+        padding: 1rem;
+    }
+    .fr2_cv{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        column-gap: 1.5rem;
+    }
+    /*contacto*/
+    .contacto{
+        margin: 0 5rem;
+    }
 }

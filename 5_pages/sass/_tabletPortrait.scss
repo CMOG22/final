@@ -56,18 +56,19 @@
         grid-template-columns: 1fr 1fr;
     }
     /*Servicios*/
-.topnav {
-    a {
-        padding: 1rem 0.3rem;
+    .topnav {
+        a {
+            padding: 1rem 0.3rem;
+        }
     }
-}
-.servicios_fr{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1.3rem;
-}
-/*proyectos*/
-.wordpress, .front{
-    grid-template-columns: 1fr 1fr 1fr;
-}
+    .servicios_fr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.3rem;
+    }
+    /*proyectos*/
+    .wordpress, .front{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*sobre mi*/
 }

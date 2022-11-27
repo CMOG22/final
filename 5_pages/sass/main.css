@@ -479,6 +479,83 @@ header {
   margin-top: 5rem;
 }
 
+/*sobre mi*/
+.sobre_mi {
+  padding: 5rem 1rem 0;
+  background-color: rgba(37, 38, 42, 0.8);
+}
+
+.descargar {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.foto_center {
+  display: flex;
+  justify-content: center;
+}
+
+.foto {
+  width: 10rem;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+  color: #65F3AB;
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid white;
+  color: white;
+  height: 5rem;
+}
+
+table {
+  margin-left: 0;
+  width: 100%;
+}
+
+td {
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+th, td {
+  color: white;
+  text-align: center;
+}
+
+.formacion_curso, .formacion_escu, .formacion_ano, .formacion_doc {
+  color: white;
+  list-style-type: none;
+  margin-left: 0rem;
+}
+
+.formacion_escu, .formacion_ano, .formacion_doc {
+  padding-left: 2rem;
+}
+
+.formacion_escu {
+  font-size: 1.3rem;
+}
+
+.formacion_curso {
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 1px solid #65F3AB;
+  width: 45rem;
+  max-width: 100%;
+}
+
+.formacion_ano, .formacion_doc {
+  font-size: 1.3rem;
+}
+
 @media (min-width: 481px) {
   .content_firt {
     grid-template-columns: 1fr 1fr;
@@ -544,6 +621,7 @@ header {
   .wordpress, .front {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  /*sobre mi*/
 }
 @media (min-width: 768px) {
   .contact iframe {
@@ -576,6 +654,7 @@ header {
   .formacion {
     margin-top: 2rem;
   }
+  /*sobre mi*/
 }
 @media (min-width: 1021px) {
   body {
@@ -659,5 +738,35 @@ header {
   }
   .wordpress, .front {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  /*Sobre mi*/
+  .sobre_mi {
+    padding: 5rem 2rem 1rem;
+    margin: 0 5rem;
+  }
+  .sobre_mi h2 {
+    margin-top: 3rem;
+  }
+  .descargar {
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: -5rem;
+  }
+  .fr2_sobre {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+    padding: 1rem;
+  }
+  .fr2_cv {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+  /*contacto*/
+  .contacto {
+    margin: 0 5rem;
   }
 }/*# sourceMappingURL=main.css.map */
