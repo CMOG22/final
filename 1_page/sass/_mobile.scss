@@ -14,6 +14,7 @@
     background-color: $verde;
     border-radius: 0.4rem;
     margin: 0 1rem 0 1rem;
+    box-shadow: 5px 5px $verde_dark;
     h1 {
         color: black;
         font-weight: bold;
@@ -68,6 +69,7 @@
     padding: 1.5rem;
     background-color: #25262A;
     border-radius: 1rem;
+    box-shadow: 5px 5px $verde_dark;
     h3 {
         color: $verde;
         font-weight: 600;
@@ -120,6 +122,7 @@
         border-radius: 10px;
         box-sizing: border-box;
         resize: vertical !important;
+        box-shadow: 3px 3px $verde_dark;
     }
     .check {
         display: flex;

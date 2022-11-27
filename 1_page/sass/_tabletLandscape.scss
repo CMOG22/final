@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .contact iframe {
+        width: 100%;
+    }
+    .formulario {
+        width: 70%;
+        margin: auto;
+        .contact_form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            .check {
+                display:grid;
+                text-align: center;
+                grid-template-columns: 1fr 1fr;
+                justify-content: center;
+                input[type=checkbox]{
+                    width: 1rem;
+                }
+            }
+        }
+    }
+}

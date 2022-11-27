@@ -183,6 +183,7 @@ header {
   background-color: #65F3AB;
   border-radius: 0.4rem;
   margin: 0 1rem 0 1rem;
+  box-shadow: 5px 5px rgba(101, 243, 172, 0.4235294118);
 }
 .front_end h1 {
   color: black;
@@ -243,6 +244,7 @@ header {
   padding: 1.5rem;
   background-color: #25262A;
   border-radius: 1rem;
+  box-shadow: 5px 5px rgba(101, 243, 172, 0.4235294118);
 }
 .diseno h3 {
   color: #65F3AB;
@@ -299,6 +301,7 @@ header {
   border-radius: 10px;
   box-sizing: border-box;
   resize: vertical !important;
+  box-shadow: 3px 3px rgba(101, 243, 172, 0.4235294118);
 }
 .formulario .check {
   display: flex;
@@ -423,9 +426,31 @@ header {
   }
   .contact {
     margin-top: 10rem;
-    border: 10px solid red;
   }
   .contact iframe {
     height: 20rem;
+  }
+}
+@media (min-width: 768px) {
+  .contact iframe {
+    width: 100%;
+  }
+  .formulario {
+    width: 70%;
+    margin: auto;
+  }
+  .formulario .contact_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .formulario .contact_form .check {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .formulario .contact_form .check input[type=checkbox] {
+    width: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */
