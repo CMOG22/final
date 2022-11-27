@@ -109,7 +109,7 @@ header{
 }
 .active {
     background-color: #04AA6D;
-    color: black;
+    color: black !important;
     font-weight: bold;
     border-radius: 0.5rem;
 }

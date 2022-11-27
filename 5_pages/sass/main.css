@@ -115,7 +115,7 @@ header {
 
 .active {
   background-color: #04AA6D;
-  color: black;
+  color: black !important;
   font-weight: bold;
   border-radius: 0.5rem;
 }
@@ -286,6 +286,9 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   margin: 2rem 1rem 0 1rem;
+}
+.contact h1 {
+  font-weight: bold;
 }
 .contact iframe {
   max-width: 100%;
