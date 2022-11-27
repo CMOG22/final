@@ -12,6 +12,7 @@ Multipage: Contiene 5 paginas donde se establece el portfolio
 La función de esta web tiene la función de ser un CV interactivo para mostrar mi conocimiento de forma dinamica.
 
 Para visualizar la web en vivo se puede dirigir a las siguientes url:
-
+github:
+000webhost:
 
 ###Tener en cuenta que al dar click sobre el logo se llevara a la pagina de selección de visualización, Landinpage o Multipage
