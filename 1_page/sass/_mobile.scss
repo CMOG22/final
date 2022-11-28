@@ -6,10 +6,11 @@
 .content {
     padding-top: 5rem;
 }
-.content_firt {
+.content_firt, .content_secon {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 .front_end {
     background-color: $verde;
     border-radius: 0.4rem;

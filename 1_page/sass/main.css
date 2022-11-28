@@ -181,7 +181,7 @@ header {
   padding-top: 5rem;
 }
 
-.content_firt {
+.content_firt, .content_secon {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -389,7 +389,7 @@ header {
 }
 
 @media (min-width: 481px) {
-  .content_firt {
+  .content_firt, .content_secon {
     grid-template-columns: 1fr 1fr;
   }
   .front_end {
@@ -473,37 +473,37 @@ header {
   .topnav a {
     padding: 1rem 1rem;
   }
-  .content_firt {
+  .content_firt, .content_secon {
     gap: 2rem;
   }
-  .content_firt .front_end {
+  .content_firt .front_end, .content_secon .front_end {
     padding: 0.2rem 2rem;
     width: 27rem;
   }
-  .content_firt .front_end h1 {
+  .content_firt .front_end h1, .content_secon .front_end h1 {
     font-size: 2rem;
   }
-  .content_firt .frase p {
+  .content_firt .frase p, .content_secon .frase p {
     font-size: 3rem;
     font-style: italic;
   }
-  .content_firt .frase_2 p {
+  .content_firt .frase_2 p, .content_secon .frase_2 p {
     font-size: 1.5rem;
   }
-  .content_firt .frases {
+  .content_firt .frases, .content_secon .frases {
     margin: auto;
   }
-  .content_firt .chat {
+  .content_firt .chat, .content_secon .chat {
     margin: 3rem 0;
   }
-  .content_firt .chat a {
+  .content_firt .chat a, .content_secon .chat a {
     font-size: 1.5rem;
   }
-  .content_firt .people {
+  .content_firt .people, .content_secon .people {
     display: flex;
     justify-content: center;
   }
-  .content_firt .people img {
+  .content_firt .people img, .content_secon .people img {
     width: 90%;
   }
   .content_secont .present {
