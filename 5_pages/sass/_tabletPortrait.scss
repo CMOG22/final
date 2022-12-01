@@ -64,7 +64,8 @@
     .servicios_fr{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 1.3rem;
+        column-gap: 2rem;
+        row-gap: 2rem;
     }
     /*proyectos*/
     .wordpress, .front{

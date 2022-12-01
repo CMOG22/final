@@ -406,6 +406,11 @@ header {
   margin-bottom: 2rem;
 }
 
+.servicios_fr section {
+  height: 23rem;
+  border-bottom: 1px solid grey;
+}
+
 /*proyectos*/
 .proyectos {
   padding: 5rem 1rem 0;
@@ -614,8 +619,9 @@ th, td {
   .servicios_fr {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -moz-column-gap: 1.3rem;
-         column-gap: 1.3rem;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    row-gap: 2rem;
   }
   /*proyectos*/
   .wordpress, .front {
@@ -728,7 +734,7 @@ th, td {
     margin: 0 5rem;
   }
   .servicios_fr {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
   /*Proyectos*/
