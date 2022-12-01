@@ -104,4 +104,10 @@ section h1 {
   section {
     min-height: 25vh;
   }
+}
+main {
+  -webkit-animation: backInLeft;
+          animation: backInLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }/*# sourceMappingURL=main.css.map */

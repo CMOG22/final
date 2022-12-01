@@ -95,3 +95,7 @@ section {
         min-height: 25vh;
     }
 }
+main {
+	animation: backInLeft;
+	animation-duration: 2s;
+}
