@@ -294,6 +294,9 @@
 .foto_center{
     display: flex;
     justify-content: center;
+    img {
+        border-radius: 100%;
+    }
 }
 .foto{
     width: 10rem;
